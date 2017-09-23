@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\build.shared\common.props" />
+
+  <PropertyGroup>
+    <Description>Transport abstractions for the ASP.NET Core Kestrel cross-platform web server.</Description>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore;kestrel</PackageTags>
+    <NoWarn>CS1570;CS1571;CS1572;CS1573;CS1574;CS1591;$(NoWarn)</NoWarn>
+    <EnableApiCheck>false</EnableApiCheck>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseSystemMemory>false</UseSystemMemory>
+    <DefineConstants>$(DefineConstants);KESTREL_BY_SOURCE</DefineConstants>
+    <DefineConstants Condition="'$(UseSystemMemory)' == 'true'">$(DefineConstants);SYSTEM_MEMORY</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Internal.CoreFxLab.Sources" Version="$(CoreFxLabSourcesVersion)" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="$(AspNetCoreVersion)" />
+    <PackageReference Include="System.Numerics.Vectors" Version="$(CoreFxVersion)" />
+    <PackageReference Include="System.Buffers" Version="$(CoreFxVersion)" />
+    <PackageReference Condition="'$(UseSystemMemory)' == 'true'" Include="System.Memory" Version="$(CoreFxVersion)" />
+  </ItemGroup>
+
+</Project>

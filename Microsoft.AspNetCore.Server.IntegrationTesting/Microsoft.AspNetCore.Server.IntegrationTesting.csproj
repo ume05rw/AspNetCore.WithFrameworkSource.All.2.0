@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\build.shared\common.props" />
+
+  <PropertyGroup>
+    <Description>ASP.NET Core helpers to deploy applications to IIS Express, IIS, WebListener and Kestrel for testing.</Description>
+    <VersionPrefix>0.4.0</VersionPrefix>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore;testing</PackageTags>
+    <EnableApiCheck>false</EnableApiCheck>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Deployers\RemoteWindowsDeployer\RemotePSSessionHelper.ps1;Deployers\RemoteWindowsDeployer\StartServer.ps1;Deployers\RemoteWindowsDeployer\StopServer.ps1" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Testing" Version="$(AspNetCoreVersion)" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="$(AspNetCoreVersion)" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="$(AspNetCoreVersion)" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="$(AspNetCoreVersion)" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Testing" Version="$(AspNetCoreVersion)" />
+    <PackageReference Include="Microsoft.Extensions.Process.Sources" Version="$(AspNetCoreVersion)" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.NETCore.Windows.ApiSets" Version="$(WindowsApiSetsVersion)" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="$(SerilogExtensionsLoggingVersion)" />
+    <PackageReference Include="Serilog.Sinks.File" Version="$(SerilogFileSinkVersion)" />
+  </ItemGroup>
+
+</Project>

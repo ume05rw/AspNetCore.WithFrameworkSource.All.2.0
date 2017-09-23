@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.AspNetCore.Diagnostics.Abstractions\Microsoft.AspNetCore.Diagnostics.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Diagnostics.Elm\Microsoft.AspNetCore.Diagnostics.Elm.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Diagnostics\Microsoft.AspNetCore.Diagnostics.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Hosting.Abstractions\Microsoft.AspNetCore.Hosting.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Hosting.Server.Abstractions\Microsoft.AspNetCore.Hosting.Server.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Hosting.WindowsServices\Microsoft.AspNetCore.Hosting.WindowsServices.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Hosting\Microsoft.AspNetCore.Hosting.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.MiddlewareAnalysis\Microsoft.AspNetCore.MiddlewareAnalysis.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Routing.Abstractions\Microsoft.AspNetCore.Routing.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Routing\Microsoft.AspNetCore.Routing.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Server.IntegrationTesting\Microsoft.AspNetCore.Server.IntegrationTesting.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Server.Kestrel.Core\Microsoft.AspNetCore.Server.Kestrel.Core.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Server.Kestrel.Https\Microsoft.AspNetCore.Server.Kestrel.Https.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Server.Kestrel\Microsoft.AspNetCore.Server.Kestrel.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.TestHost\Microsoft.AspNetCore.TestHost.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore\Microsoft.AspNetCore.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.Abstractions\Microsoft.Extensions.Configuration.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.AzureKeyVault\Microsoft.Extensions.Configuration.AzureKeyVault.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.Binder\Microsoft.Extensions.Configuration.Binder.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.CommandLine\Microsoft.Extensions.Configuration.CommandLine.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.DockerSecrets\Microsoft.Extensions.Configuration.DockerSecrets.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.EnvironmentVariables\Microsoft.Extensions.Configuration.EnvironmentVariables.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.FileExtensions\Microsoft.Extensions.Configuration.FileExtensions.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.Ini\Microsoft.Extensions.Configuration.Ini.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.Json\Microsoft.Extensions.Configuration.Json.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.UserSecrets\Microsoft.Extensions.Configuration.UserSecrets.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.Xml\Microsoft.Extensions.Configuration.Xml.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration\Microsoft.Extensions.Configuration.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Hosting.Abstractions\Microsoft.Extensions.Hosting.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.Abstractions\Microsoft.Extensions.Logging.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.AzureAppServices\Microsoft.Extensions.Logging.AzureAppServices.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.Configuration\Microsoft.Extensions.Logging.Configuration.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.Console\Microsoft.Extensions.Logging.Console.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.Debug\Microsoft.Extensions.Logging.Debug.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.EventLog\Microsoft.Extensions.Logging.EventLog.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.EventSource\Microsoft.Extensions.Logging.EventSource.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.Testing\Microsoft.Extensions.Logging.Testing.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.TraceSource\Microsoft.Extensions.Logging.TraceSource.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging\Microsoft.Extensions.Logging.csproj" />
+  </ItemGroup>
+
+</Project>
