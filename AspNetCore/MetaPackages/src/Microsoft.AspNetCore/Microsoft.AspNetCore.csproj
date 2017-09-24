@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\build\common.props" />
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <PackageTags>aspnetcore</PackageTags>
+    <Description>Microsoft.AspNetCore</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <EnableApiCheck>false</EnableApiCheck>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="@(MetaPackagePackageReference)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.CommandLine\Microsoft.Extensions.Configuration.CommandLine.csproj" />
+    <ProjectReference Include="..\..\..\..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.EnvironmentVariables\Microsoft.Extensions.Configuration.EnvironmentVariables.csproj" />
+    <ProjectReference Include="..\..\..\..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.FileExtensions\Microsoft.Extensions.Configuration.FileExtensions.csproj" />
+    <ProjectReference Include="..\..\..\..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.Json\Microsoft.Extensions.Configuration.Json.csproj" />
+    <ProjectReference Include="..\..\..\..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.UserSecrets\Microsoft.Extensions.Configuration.UserSecrets.csproj" />
+    <ProjectReference Include="..\..\..\..\Extensions\Logging\src\Microsoft.Extensions.Logging.Configuration\Microsoft.Extensions.Logging.Configuration.csproj" />
+    <ProjectReference Include="..\..\..\..\Extensions\Logging\src\Microsoft.Extensions.Logging.Console\Microsoft.Extensions.Logging.Console.csproj" />
+    <ProjectReference Include="..\..\..\..\Extensions\Logging\src\Microsoft.Extensions.Logging.Debug\Microsoft.Extensions.Logging.Debug.csproj" />
+    <ProjectReference Include="..\..\..\..\Extensions\Logging\src\Microsoft.Extensions.Logging\Microsoft.Extensions.Logging.csproj" />
+    <ProjectReference Include="..\..\..\Diagnostics\src\Microsoft.AspNetCore.Diagnostics\Microsoft.AspNetCore.Diagnostics.csproj" />
+    <ProjectReference Include="..\..\..\Hosting\src\Microsoft.AspNetCore.Hosting\Microsoft.AspNetCore.Hosting.csproj" />
+    <ProjectReference Include="..\..\..\Routing\src\Microsoft.AspNetCore.Routing\Microsoft.AspNetCore.Routing.csproj" />
+    <ProjectReference Include="..\..\..\Server\IISIntegration\src\Microsoft.AspNetCore.Server.IISIntegration\Microsoft.AspNetCore.Server.IISIntegration.csproj" />
+    <ProjectReference Include="..\..\..\Server\KestrelHttpServer\src\Microsoft.AspNetCore.Server.Kestrel.Https\Microsoft.AspNetCore.Server.Kestrel.Https.csproj" />
+    <ProjectReference Include="..\..\..\Server\KestrelHttpServer\src\Microsoft.AspNetCore.Server.Kestrel\Microsoft.AspNetCore.Server.Kestrel.csproj" />
+  </ItemGroup>
+
+</Project>

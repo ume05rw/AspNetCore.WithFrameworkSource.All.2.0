@@ -9,27 +9,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AspNetCore\Diagnostics\src\Microsoft.AspNetCore.Diagnostics\Microsoft.AspNetCore.Diagnostics.csproj" />
     <ProjectReference Include="..\AspNetCore\Hosting\src\Microsoft.AspNetCore.Hosting.Abstractions\Microsoft.AspNetCore.Hosting.Abstractions.csproj" />
-    <ProjectReference Include="..\AspNetCore\Hosting\src\Microsoft.AspNetCore.Hosting\Microsoft.AspNetCore.Hosting.csproj" />
     <ProjectReference Include="..\AspNetCore\Http\src\Microsoft.AspNetCore.Http.Abstractions\Microsoft.AspNetCore.Http.Abstractions.csproj" />
     <ProjectReference Include="..\AspNetCore\Http\src\Microsoft.AspNetCore.Http.Extensions\Microsoft.AspNetCore.Http.Extensions.csproj" />
+    <ProjectReference Include="..\AspNetCore\MetaPackages\src\Microsoft.AspNetCore\Microsoft.AspNetCore.csproj" />
     <ProjectReference Include="..\AspNetCore\Mvc\src\Microsoft.AspNetCore.Mvc\Microsoft.AspNetCore.Mvc.csproj" />
-    <ProjectReference Include="..\AspNetCore\Routing\src\Microsoft.AspNetCore.Routing\Microsoft.AspNetCore.Routing.csproj" />
-    <ProjectReference Include="..\AspNetCore\Server\IISIntegration\src\Microsoft.AspNetCore.Server.IISIntegration\Microsoft.AspNetCore.Server.IISIntegration.csproj" />
-    <ProjectReference Include="..\AspNetCore\Server\KestrelHttpServer\src\Microsoft.AspNetCore.Server.Kestrel.Https\Microsoft.AspNetCore.Server.Kestrel.Https.csproj" />
-    <ProjectReference Include="..\AspNetCore\Server\KestrelHttpServer\src\Microsoft.AspNetCore.Server.Kestrel\Microsoft.AspNetCore.Server.Kestrel.csproj" />
     <ProjectReference Include="..\AspNetCore\StaticFiles\src\Microsoft.AspNetCore.StaticFiles\Microsoft.AspNetCore.StaticFiles.csproj" />
-    <ProjectReference Include="..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.CommandLine\Microsoft.Extensions.Configuration.CommandLine.csproj" />
-    <ProjectReference Include="..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.EnvironmentVariables\Microsoft.Extensions.Configuration.EnvironmentVariables.csproj" />
-    <ProjectReference Include="..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.FileExtensions\Microsoft.Extensions.Configuration.FileExtensions.csproj" />
-    <ProjectReference Include="..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.Json\Microsoft.Extensions.Configuration.Json.csproj" />
-    <ProjectReference Include="..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.UserSecrets\Microsoft.Extensions.Configuration.UserSecrets.csproj" />
     <ProjectReference Include="..\Extensions\FileProviders\src\Microsoft.Extensions.FileProviders.Physical\Microsoft.Extensions.FileProviders.Physical.csproj" />
-    <ProjectReference Include="..\Extensions\Logging\src\Microsoft.Extensions.Logging.Configuration\Microsoft.Extensions.Logging.Configuration.csproj" />
-    <ProjectReference Include="..\Extensions\Logging\src\Microsoft.Extensions.Logging.Console\Microsoft.Extensions.Logging.Console.csproj" />
-    <ProjectReference Include="..\Extensions\Logging\src\Microsoft.Extensions.Logging.Debug\Microsoft.Extensions.Logging.Debug.csproj" />
-    <ProjectReference Include="..\Extensions\Logging\src\Microsoft.Extensions.Logging\Microsoft.Extensions.Logging.csproj" />
   </ItemGroup>
 
 </Project>

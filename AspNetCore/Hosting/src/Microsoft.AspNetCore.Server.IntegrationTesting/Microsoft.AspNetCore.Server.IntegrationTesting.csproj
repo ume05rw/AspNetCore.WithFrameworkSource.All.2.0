@@ -28,4 +28,11 @@
     <PackageReference Include="Serilog.Sinks.File" Version="$(SerilogFileSinkVersion)" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Extensions\FileProviders\src\Microsoft.Extensions.FileProviders.Embedded\Microsoft.Extensions.FileProviders.Embedded.csproj" />
+    <ProjectReference Include="..\..\..\..\Extensions\Logging\src\Microsoft.Extensions.Logging.Console\Microsoft.Extensions.Logging.Console.csproj" />
+    <ProjectReference Include="..\..\..\..\Extensions\Logging\src\Microsoft.Extensions.Logging.Testing\Microsoft.Extensions.Logging.Testing.csproj" />
+    <ProjectReference Include="..\..\..\..\Extensions\Logging\src\Microsoft.Extensions.Logging\Microsoft.Extensions.Logging.csproj" />
+  </ItemGroup>
+
 </Project>

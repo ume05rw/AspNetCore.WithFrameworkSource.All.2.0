@@ -21,4 +21,9 @@ Microsoft.AspNetCore.Mvc.IActionResult</Description>
     <PackageReference Include="Microsoft.Net.Http.Headers" Version="$(AspNetCoreVersion)" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Http\src\Microsoft.Net.Http.Headers\Microsoft.Net.Http.Headers.csproj" />
+    <ProjectReference Include="..\..\..\Routing\src\Microsoft.AspNetCore.Routing.Abstractions\Microsoft.AspNetCore.Routing.Abstractions.csproj" />
+  </ItemGroup>
+
 </Project>

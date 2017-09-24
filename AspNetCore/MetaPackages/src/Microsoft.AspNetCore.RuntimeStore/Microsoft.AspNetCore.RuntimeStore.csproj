@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\build\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+   <PackageReference Include="Build.RuntimeStore.References" Version="$(AspNetCoreVersion)" />
+  </ItemGroup>
+</Project>

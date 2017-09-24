@@ -26,7 +26,7 @@ If you want to rewrite the source code, change it with Configuration Manager.
 ## Dependency-Tree  
 Referenced NuGet packages:
    
-- [Microsoft.AspNetCore](https://github.com/aspnet/MetaPackages/tree/dev/src/Microsoft.AspNetCore) (<-Replace Target)
+- [Microsoft.AspNetCore](https://github.com/aspnet/MetaPackages/tree/dev/src/Microsoft.AspNetCore)
 	+ [Microsoft.AspNetCore.Diagnostics](https://github.com/aspnet/Diagnostics)
 	+ [Microsoft.AspNetCore.Hosting](https://github.com/aspnet/Hosting)
 	+ [Microsoft.AspNetCore.Routing](https://github.com/aspnet/Routing)
@@ -37,19 +37,25 @@ Referenced NuGet packages:
 	+ [Microsoft.Extensions.Logging](https://github.com/aspnet/Logging)
 - [Microsoft.AspNetCore.Mvc](https://github.com/aspnet/Mvc)
 - [Microsoft.AspNetCore.StaticFiles](https://github.com/aspnet/StaticFiles)
-- Microsoft.VisualStudio.Web.BrowserLink
+- Microsoft.VisualStudio.Web.BrowserLink <- source not found. MetaPackage?
+	+ [Microsoft.AspNetCore.Hosting.Abstractions](https://github.com/aspnet/Hosting/tree/dev/src/Microsoft.AspNetCore.Hosting.Abstractions)
+	+ [Microsoft.AspNetCore.Http.Abstractions](https://github.com/aspnet/HttpAbstractions/tree/dev/src/Microsoft.AspNetCore.Http.Abstractions)
+	+ [Microsoft.AspNetCore.Http.Extensions](https://github.com/aspnet/HttpAbstractions/tree/dev/src/Microsoft.AspNetCore.Http.Extensions)
+	+ [Microsoft.Extensions.FileProviders.Physical](https://github.com/aspnet/FileSystem/tree/dev/src/FS.Physical)
   
 ## Link
 [https://github.com/aspnet/Home](https://github.com/aspnet/Home)  
 [https://github.com/aspnet/MetaPackages](https://github.com/aspnet/MetaPackages)  
 [https://github.com/aspnet/Diagnostics](https://github.com/aspnet/Diagnostics)  
 [https://github.com/aspnet/Hosting](https://github.com/aspnet/Hosting)  
-[https://github.com/aspnet/IISIntegration](https://github.com/aspnet/IISIntegration)
+[https://github.com/aspnet/IISIntegration](https://github.com/aspnet/IISIntegration)  
 [https://github.com/aspnet/KestrelHttpServer](https://github.com/aspnet/KestrelHttpServer)  
 [https://github.com/aspnet/Configuration](https://github.com/aspnet/Configuration)  
 [https://github.com/aspnet/Logging](https://github.com/aspnet/Logging)  
 [https://github.com/aspnet/StaticFiles](https://github.com/aspnet/StaticFiles)  
- 
+[https://github.com/aspnet/HttpAbstractions](https://github.com/aspnet/HttpAbstractions)   
+[https://github.com/aspnet/FileSystem](https://github.com/aspnet/FileSystem)  
+
 ## Licence
 Apache License, Version 2.0 [(conforms to the original source code: https://github.com/aspnet/Home/blob/dev/LICENSE.txt)](https://github.com/aspnet/Home/blob/dev/LICENSE.txt)
 

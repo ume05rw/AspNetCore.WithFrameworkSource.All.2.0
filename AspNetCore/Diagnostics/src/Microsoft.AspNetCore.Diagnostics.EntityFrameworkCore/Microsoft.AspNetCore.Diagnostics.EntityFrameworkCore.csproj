@@ -21,4 +21,8 @@
     <DotNetCliToolReference Include="RazorPageGenerator" Version="$(AspNetCoreVersion)" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Http\src\Microsoft.AspNetCore.Http.Abstractions\Microsoft.AspNetCore.Http.Abstractions.csproj" />
+  </ItemGroup>
+
 </Project>
