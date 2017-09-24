@@ -11,10 +11,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="@(MetaPackagePackageReference)" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\..\..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.CommandLine\Microsoft.Extensions.Configuration.CommandLine.csproj" />
     <ProjectReference Include="..\..\..\..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.EnvironmentVariables\Microsoft.Extensions.Configuration.EnvironmentVariables.csproj" />
     <ProjectReference Include="..\..\..\..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.FileExtensions\Microsoft.Extensions.Configuration.FileExtensions.csproj" />

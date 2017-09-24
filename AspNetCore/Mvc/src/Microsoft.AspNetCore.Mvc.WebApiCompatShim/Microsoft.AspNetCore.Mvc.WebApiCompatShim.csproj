@@ -21,7 +21,6 @@ System.Web.Http.ApiController</Description>
     <ProjectReference Include="..\Microsoft.AspNetCore.Mvc.Formatters.Json\Microsoft.AspNetCore.Mvc.Formatters.Json.csproj" />
 
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="$(WebApiClientVersion)" />
-    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="$(AspNetCoreVersion)" />
     <PackageReference Include="Microsoft.Extensions.PropertyHelper.Sources" Version="$(AspNetCoreVersion)" PrivateAssets="All" />
   </ItemGroup>
 

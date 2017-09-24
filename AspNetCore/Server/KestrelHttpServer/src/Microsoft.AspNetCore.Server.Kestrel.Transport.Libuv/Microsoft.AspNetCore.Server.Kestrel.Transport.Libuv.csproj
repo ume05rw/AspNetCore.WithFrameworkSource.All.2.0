@@ -14,8 +14,6 @@
 
   <ItemGroup>
     <PackageReference Include="Libuv" Version="$(LibUvVersion)" />
-    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="$(AspNetCoreVersion)" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="$(AspNetCoreVersion)" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="$(AspNetCoreVersion)" />
   </ItemGroup>
 

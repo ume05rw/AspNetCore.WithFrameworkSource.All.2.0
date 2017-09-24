@@ -23,7 +23,6 @@ Microsoft.AspNetCore.Mvc.ViewComponent</Description>
 
     <PackageReference Include="Microsoft.AspNetCore.Antiforgery" Version="$(AspNetCoreVersion)" />
     <PackageReference Include="Microsoft.AspNetCore.ChunkingCookieManager.Sources" Version="$(AspNetCoreVersion)" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.Abstractions" Version="$(AspNetCoreVersion)" />
     <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="$(AspNetCoreVersion)" />
     <PackageReference Include="Microsoft.Extensions.ClosedGenericMatcher.Sources" Version="$(AspNetCoreVersion)" PrivateAssets="All" />
     <PackageReference Include="Microsoft.Extensions.CopyOnWriteDictionary.Sources" Version="$(AspNetCoreVersion)" PrivateAssets="All" />

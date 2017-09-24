@@ -11,11 +11,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="$(AspNetCoreVersion)" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="$(AspNetCoreVersion)" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\..\..\Extensions\Configuration\src\Microsoft.Extensions.Configuration.Abstractions\Microsoft.Extensions.Configuration.Abstractions.csproj" />
     <ProjectReference Include="..\..\..\Http\src\Microsoft.AspNetCore.Http.Features\Microsoft.AspNetCore.Http.Features.csproj" />
   </ItemGroup>
