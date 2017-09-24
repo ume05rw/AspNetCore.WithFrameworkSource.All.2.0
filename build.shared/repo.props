@@ -1,5 +1,0 @@
-<Project>
-  <ItemGroup>
-    <ExcludeFromTest Include="$(RepositoryRoot)test\ClassLibraryWithPortablePdbs\*.csproj" />
-  </ItemGroup>
-</Project>
