@@ -7,8 +7,6 @@ Sample project with ASP.Net Core framework source code.
 This is a ASP.Net Core template project that switched reference NuGet-packages to framework source codes.  
 All projects sources included in this solution can rewrite, build, run, break, step-in.
 
-Replace Target Nuget-Package: Microsoft.AspNetCore 2.0.0
-
 ## Requirement
 Visual Studio 2017
   
@@ -18,9 +16,14 @@ Visual Studio 2017
 2. Open *.sln file on Visual Studio.  
 3. Rewrite, build, run, break, step-in, As you like!
 
-Note:  
+Note1:  
 All framework projects have disabled the Debug build.  
 If you want to rewrite the source code, change it with Configuration Manager.
+
+Note2:  
+If you want to add more framework projects, be aware of the repository in Nuget.config.  
+Normally, if the referenced project is not ready, the framework project will download the NuGet package, so the project reference and the package conflict.  
+In order to prevent that, all necessary packages are stored in /packages folder, and Nuget.config is set to refer only to /packages folder.
 
 
 ## Dependency-Tree  
