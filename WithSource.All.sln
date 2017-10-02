@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithSource.Core", "WithSource.Core\WithSource.Core.csproj", "{233A8125-CDF9-443F-A833-421C8918FA8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithSource.All", "WithSource.All\WithSource.All.csproj", "{233A8125-CDF9-443F-A833-421C8918FA8F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagnostics", "Diagnostics", "{1117AFAE-5B1D-4BED-831C-154E7D2AFA42}"
 EndProject

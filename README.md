@@ -1,9 +1,10 @@
-Asp.NetCoreWithFrameworkSource.Core2.0
+AspNetCore.WithFrameworkSource.All.2.0
 ====
 
-Sample project with ASP.Net Core framework source code.
+Sample project with ASP.Net Core framework source codes.
 
 ## Description
+Do you want to read the framework source code, and deepen your understanding, like scripting languages such as PHP, Python, Ruby, Javascript?  
 This is a ASP.Net Core template project that switched reference NuGet-packages to framework source codes.  
 All projects sources included in this solution can rewrite, build, run, break, step-in.
 
@@ -50,9 +51,13 @@ Referenced NuGet packages:
 	+ [Microsoft.Extensions.FileProviders.Physical](https://github.com/aspnet/FileSystem/tree/rel/2.0.0/src/Microsoft.Extensions.FileProviders.Physical)
   
 ## Link
+Asp.Net Core Project Home:  
 [https://github.com/aspnet/Home](https://github.com/aspnet/Home)  
-[https://github.com/aspnet/MetaPackages](https://github.com/aspnet/MetaPackages)  
   
+Package Set:  
+[https://github.com/aspnet/MetaPackages](https://github.com/aspnet/MetaPackages)  
+
+Namespace "Microsoft.AspNetCore" Packages:    
 [https://github.com/aspnet/Diagnostics](https://github.com/aspnet/Diagnostics)  
 [https://github.com/aspnet/Hosting](https://github.com/aspnet/Hosting)  
 [https://github.com/aspnet/HttpAbstractions](https://github.com/aspnet/HttpAbstractions)  
@@ -61,6 +66,7 @@ Referenced NuGet packages:
 [https://github.com/aspnet/Routing](https://github.com/aspnet/Routing)  
 [https://github.com/aspnet/StaticFiles](https://github.com/aspnet/StaticFiles)  
   
+Namespace "Microsoft.Extensions" Packages:  
 [https://github.com/aspnet/Configuration](https://github.com/aspnet/Configuration)  
 [https://github.com/aspnet/DependencyInjection](https://github.com/aspnet/DependencyInjection)  
 [https://github.com/aspnet/FileSystem](https://github.com/aspnet/FileSystem)  
