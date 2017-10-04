@@ -12,6 +12,7 @@
     <ProjectReference Include="..\AspNetCore\Hosting\src\Microsoft.AspNetCore.Hosting.Abstractions\Microsoft.AspNetCore.Hosting.Abstractions.csproj" />
     <ProjectReference Include="..\AspNetCore\Http\src\Microsoft.AspNetCore.Http.Abstractions\Microsoft.AspNetCore.Http.Abstractions.csproj" />
     <ProjectReference Include="..\AspNetCore\Http\src\Microsoft.AspNetCore.Http.Extensions\Microsoft.AspNetCore.Http.Extensions.csproj" />
+    <ProjectReference Include="..\AspNetCore\Identity\src\Microsoft.AspNetCore.Identity\Microsoft.AspNetCore.Identity.csproj" />
     <ProjectReference Include="..\AspNetCore\MetaPackages\src\Microsoft.AspNetCore\Microsoft.AspNetCore.csproj" />
     <ProjectReference Include="..\AspNetCore\Mvc\src\Microsoft.AspNetCore.Mvc\Microsoft.AspNetCore.Mvc.csproj" />
     <ProjectReference Include="..\AspNetCore\StaticFiles\src\Microsoft.AspNetCore.StaticFiles\Microsoft.AspNetCore.StaticFiles.csproj" />

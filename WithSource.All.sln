@@ -145,8 +145,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore", "Asp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{103E8211-0FC1-446A-814C-2F1BF38D99CE}"
 	ProjectSection(SolutionItems) = preProject
-		NuGet.config = NuGet.config
 		dotnet_restore.bat = dotnet_restore.bat
+		NuGet.config = NuGet.config
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{E53D84D7-0F22-42E2-A7FC-B8B34C56BAB2}"
@@ -156,6 +156,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.DependencyInjection.Abstractions", "Extensions\DependencyInjection\src\Microsoft.Extensions.DependencyInjection.Abstractions\Microsoft.Extensions.DependencyInjection.Abstractions.csproj", "{F73462BB-E942-4693-A137-11DEF21069CA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Configuration.Binder", "Extensions\Configuration\src\Microsoft.Extensions.Configuration.Binder\Microsoft.Extensions.Configuration.Binder.csproj", "{C54B11B1-1B28-4544-B890-06650E673EEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{26B5D1BF-8395-4EFA-955B-96170EB019FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Identity", "AspNetCore\Identity\src\Microsoft.AspNetCore.Identity\Microsoft.AspNetCore.Identity.csproj", "{9B5820EE-908E-4B6F-8FAD-FA84FF580AD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Identity.Core", "AspNetCore\Identity\src\Microsoft.Extensions.Identity.Core\Microsoft.Extensions.Identity.Core.csproj", "{27CCA996-049C-4BB9-9175-5D6B1804FE7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -336,9 +342,14 @@ Global
 		{F73462BB-E942-4693-A137-11DEF21069CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F73462BB-E942-4693-A137-11DEF21069CA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C54B11B1-1B28-4544-B890-06650E673EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C54B11B1-1B28-4544-B890-06650E673EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C54B11B1-1B28-4544-B890-06650E673EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C54B11B1-1B28-4544-B890-06650E673EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5820EE-908E-4B6F-8FAD-FA84FF580AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5820EE-908E-4B6F-8FAD-FA84FF580AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5820EE-908E-4B6F-8FAD-FA84FF580AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27CCA996-049C-4BB9-9175-5D6B1804FE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CCA996-049C-4BB9-9175-5D6B1804FE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CCA996-049C-4BB9-9175-5D6B1804FE7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -415,6 +426,9 @@ Global
 		{24CD9972-F540-41F0-881F-98A12EC32933} = {E53D84D7-0F22-42E2-A7FC-B8B34C56BAB2}
 		{F73462BB-E942-4693-A137-11DEF21069CA} = {E53D84D7-0F22-42E2-A7FC-B8B34C56BAB2}
 		{C54B11B1-1B28-4544-B890-06650E673EEA} = {BB3DE06A-2527-4D35-A04E-CCE4CEAF335B}
+		{26B5D1BF-8395-4EFA-955B-96170EB019FC} = {B7F225E2-C742-42CD-804E-DB0697C60122}
+		{9B5820EE-908E-4B6F-8FAD-FA84FF580AD2} = {26B5D1BF-8395-4EFA-955B-96170EB019FC}
+		{27CCA996-049C-4BB9-9175-5D6B1804FE7E} = {26B5D1BF-8395-4EFA-955B-96170EB019FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FBCBE085-ED19-4371-87F7-DCF681EFC3D0}
