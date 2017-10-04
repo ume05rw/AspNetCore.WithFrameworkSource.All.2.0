@@ -17,6 +17,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Hosting\src\Microsoft.AspNetCore.Hosting.Abstractions\Microsoft.AspNetCore.Hosting.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\Http\src\Microsoft.AspNetCore.Http.Extensions\Microsoft.AspNetCore.Http.Extensions.csproj" />
+    <ProjectReference Include="..\..\..\Http\src\Microsoft.AspNetCore.Http\Microsoft.AspNetCore.Http.csproj" />
     <ProjectReference Include="..\Microsoft.Extensions.Identity.Core\Microsoft.Extensions.Identity.Core.csproj" />
   </ItemGroup>
 
