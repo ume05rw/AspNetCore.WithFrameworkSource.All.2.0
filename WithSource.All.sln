@@ -146,7 +146,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{103E8211-0FC1-446A-814C-2F1BF38D99CE}"
 	ProjectSection(SolutionItems) = preProject
 		NuGet.config = NuGet.config
-		restore.bat = restore.bat
+		dotnet_restore.bat = dotnet_restore.bat
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{E53D84D7-0F22-42E2-A7FC-B8B34C56BAB2}"
