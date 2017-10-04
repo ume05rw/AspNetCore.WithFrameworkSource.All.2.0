@@ -17,6 +17,7 @@ Microsoft.AspNetCore.Routing.RouteCollection</Description>
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Extensions\DependencyInjection\src\Microsoft.Extensions.DependencyInjection.Abstractions\Microsoft.Extensions.DependencyInjection.Abstractions.csproj" />
     <ProjectReference Include="..\..\..\..\Extensions\Logging\src\Microsoft.Extensions.Logging.Abstractions\Microsoft.Extensions.Logging.Abstractions.csproj" />
     <ProjectReference Include="..\..\..\Http\src\Microsoft.AspNetCore.Http.Extensions\Microsoft.AspNetCore.Http.Extensions.csproj" />
     <ProjectReference Include="..\Microsoft.AspNetCore.Routing.Abstractions\Microsoft.AspNetCore.Routing.Abstractions.csproj" />
