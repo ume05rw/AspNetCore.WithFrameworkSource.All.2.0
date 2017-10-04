@@ -1,4 +1,6 @@
-: exec "dotnet restore --configfile "%HOME%NuGet.config"" command for all projects.
+: ------------------------------
+: exec "dotnet restore" command for all referenced projects.
+: ------------------------------
 
 set HOME=%~dp0
 
@@ -77,7 +79,7 @@ dotnet restore --configfile "%HOME%NuGet.config"
 
 
 : ------------------------------
-: 2 Dependency
+: 2 Dependencies
 : ------------------------------
 cd "%HOME%AspNetCore\Hosting\src\Microsoft.AspNetCore.Hosting.Server.Abstractions"
 dotnet restore --configfile "%HOME%NuGet.config"
@@ -101,7 +103,7 @@ dotnet restore --configfile "%HOME%NuGet.config"
 
 
 : ------------------------------
-: 3 Dependency
+: 3 Dependencies
 : ------------------------------
 cd "%HOME%AspNetCore\Http\src\Microsoft.AspNetCore.Http"
 dotnet restore --configfile "%HOME%NuGet.config"
@@ -114,16 +116,16 @@ dotnet restore --configfile "%HOME%NuGet.config"
 
 
 : ------------------------------
-: 4 Dependency
+: 4 Dependencies
 : ------------------------------
 : ------------------------------
-: 5 Dependency
+: 5 Dependencies
 : ------------------------------
 : ------------------------------
-: 6 Dependency
+: 6 Dependencies
 : ------------------------------
 : ------------------------------
-: 7 Dependency
+: 7 Dependencies
 : ------------------------------
 cd "%HOME%AspNetCore\Hosting\src\Microsoft.AspNetCore.Hosting.Abstractions"
 dotnet restore --configfile "%HOME%NuGet.config"
@@ -152,7 +154,7 @@ dotnet restore --configfile "%HOME%NuGet.config"
 
 
 : ------------------------------
-: 8 or more Dependency
+: 8 or more Dependencies
 : ------------------------------
 cd "%HOME%AspNetCore\Hosting\src\Microsoft.AspNetCore.Hosting"
 dotnet restore --configfile "%HOME%NuGet.config"
