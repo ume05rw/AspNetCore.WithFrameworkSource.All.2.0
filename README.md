@@ -44,6 +44,7 @@ Referenced NuGet packages:
 	+ [Microsoft.Extensions.Logging](https://github.com/aspnet/Logging/tree/rel/2.0.0)
 - [Microsoft.AspNetCore.Mvc](https://github.com/aspnet/Mvc/tree/rel/2.0.0)
 - [Microsoft.AspNetCore.StaticFiles](https://github.com/aspnet/StaticFiles/tree/rel/2.0.0)
+- [Microsoft.AspNetCore.Identity](https://github.com/aspnet/Identity/tree/rel/2.0.0)  
 - Microsoft.VisualStudio.Web.BrowserLink <- source not found. MetaPackage?
 	+ [Microsoft.AspNetCore.Hosting.Abstractions](https://github.com/aspnet/Hosting/tree/rel/2.0.0/src/Microsoft.AspNetCore.Hosting.Abstractions)
 	+ [Microsoft.AspNetCore.Http.Abstractions](https://github.com/aspnet/HttpAbstractions/tree/rel/2.0.0/src/Microsoft.AspNetCore.Http.Abstractions)
@@ -64,6 +65,7 @@ Namespace "Microsoft.AspNetCore" Packages:
 [https://github.com/aspnet/IISIntegration](https://github.com/aspnet/IISIntegration)  
 [https://github.com/aspnet/KestrelHttpServer](https://github.com/aspnet/KestrelHttpServer)  
 [https://github.com/aspnet/Routing](https://github.com/aspnet/Routing)  
+[https://github.com/aspnet/Identity](https://github.com/aspnet/Identity)  
 [https://github.com/aspnet/StaticFiles](https://github.com/aspnet/StaticFiles)  
   
 Namespace "Microsoft.Extensions" Packages:  
