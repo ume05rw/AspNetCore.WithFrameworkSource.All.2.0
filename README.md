@@ -14,8 +14,9 @@ Visual Studio 2017
 
 ## Usage
 1. Git clone, or Download this.  
-2. Open *.sln file on Visual Studio.  
-3. Rewrite, build, run, break, step-in, As you like!
+2. Exec "dotnet_restore.bat".
+3. WithSource.All.sln file on Visual Studio.
+4. Rewrite, build, run, break, step-in, As you like!
 
 Note1:  
 All framework projects have disabled the Debug build.  
