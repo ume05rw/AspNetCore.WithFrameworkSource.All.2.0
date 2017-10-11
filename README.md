@@ -8,6 +8,8 @@ Do you want to read the framework source code, and deepen your understanding, li
 This is a ASP.Net Core template project that switched reference NuGet-packages to framework source codes.  
 All projects sources included in this solution can rewrite, build, run, break, step-in.
 
+Target: Asp.Net Core 2.0 All Basically Projects. 
+
 ## Requirement
 Visual Studio 2017
   
@@ -59,14 +61,15 @@ Asp.Net Core Project Home:
 Package Set:  
 [https://github.com/aspnet/MetaPackages](https://github.com/aspnet/MetaPackages)  
 
-Namespace "Microsoft.AspNetCore" Packages:    
+Namespace "Microsoft.AspNetCore" Packages:  
 [https://github.com/aspnet/Diagnostics](https://github.com/aspnet/Diagnostics)  
 [https://github.com/aspnet/Hosting](https://github.com/aspnet/Hosting)  
 [https://github.com/aspnet/HttpAbstractions](https://github.com/aspnet/HttpAbstractions)  
 [https://github.com/aspnet/IISIntegration](https://github.com/aspnet/IISIntegration)  
-[https://github.com/aspnet/KestrelHttpServer](https://github.com/aspnet/KestrelHttpServer)  
-[https://github.com/aspnet/Routing](https://github.com/aspnet/Routing)  
 [https://github.com/aspnet/Identity](https://github.com/aspnet/Identity)  
+[https://github.com/aspnet/KestrelHttpServer](https://github.com/aspnet/KestrelHttpServer)  
+[https://github.com/aspnet/Mvc](https://github.com/aspnet/Mvc)  
+[https://github.com/aspnet/Routing](https://github.com/aspnet/Routing)  
 [https://github.com/aspnet/StaticFiles](https://github.com/aspnet/StaticFiles)  
   
 Namespace "Microsoft.Extensions" Packages:  
