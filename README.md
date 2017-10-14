@@ -34,25 +34,27 @@ In order to prevent that, all necessary packages are stored in /packages folder,
 Referenced NuGet packages:
    
 - [Microsoft.AspNetCore](https://github.com/aspnet/MetaPackages/tree/rel/2.0.0/src/Microsoft.AspNetCore)
-	+ [Microsoft.AspNetCore.Diagnostics](https://github.com/aspnet/Diagnostics/tree/rel/2.0.0)
-	+ [Microsoft.AspNetCore.Hosting](https://github.com/aspnet/Hosting/tree/rel/2.0.0)
-	+ [Microsoft.AspNetCore.Http](https://github.com/aspnet/HttpAbstractions/tree/rel/2.0.0)
-	+ [Microsoft.AspNetCore.Routing](https://github.com/aspnet/Routing/tree/rel/2.0.0)
-	+ [Microsoft.AspNetCore.Server.IISIntegration](https://github.com/aspnet/IISIntegration/tree/rel/2.0.0)
-	+ [Microsoft.AspNetCore.Server.Kestrel](https://github.com/aspnet/KestrelHttpServer/tree/rel/2.0.0/src/Microsoft.AspNetCore.Server.Kestrel)
-	+ [Microsoft.AspNetCore.Server.Kestrel.Https](https://github.com/aspnet/KestrelHttpServer/tree/rel/2.0.0/src/Microsoft.AspNetCore.Server.Kestrel.Https)
-	+ [Microsoft.Extensions.Configuration](https://github.com/aspnet/Configuration/tree/rel/2.0.0)
-	+ [Microsoft.Extensions.DependencyInjection](https://github.com/aspnet/DependencyInjection/tree/rel/2.0.0)
-	+ [Microsoft.Extensions.FileProviders](https://github.com/aspnet/FileSystem/tree/rel/2.0.0)
-	+ [Microsoft.Extensions.Logging](https://github.com/aspnet/Logging/tree/rel/2.0.0)
+    + [Microsoft.AspNetCore.Diagnostics](https://github.com/aspnet/Diagnostics/tree/rel/2.0.0)
+    + [Microsoft.AspNetCore.Hosting](https://github.com/aspnet/Hosting/tree/rel/2.0.0)
+    + [Microsoft.AspNetCore.Http](https://github.com/aspnet/HttpAbstractions/tree/rel/2.0.0)
+    + [Microsoft.AspNetCore.Routing](https://github.com/aspnet/Routing/tree/rel/2.0.0)
+    + [Microsoft.AspNetCore.Server.IISIntegration](https://github.com/aspnet/IISIntegration/tree/rel/2.0.0)
+    + [Microsoft.AspNetCore.Server.Kestrel](https://github.com/aspnet/KestrelHttpServer/tree/rel/2.0.0/src/Microsoft.AspNetCore.Server.Kestrel)
+    + [Microsoft.AspNetCore.Server.Kestrel.Https](https://github.com/aspnet/KestrelHttpServer/tree/rel/2.0.0/src/Microsoft.AspNetCore.Server.Kestrel.Https)
+    + [Microsoft.Extensions.Configuration](https://github.com/aspnet/Configuration/tree/rel/2.0.0)
+    + [Microsoft.Extensions.DependencyInjection](https://github.com/aspnet/DependencyInjection/tree/rel/2.0.0)
+    + [Microsoft.Extensions.FileProviders](https://github.com/aspnet/FileSystem/tree/rel/2.0.0)
+    + [Microsoft.Extensions.Logging](https://github.com/aspnet/Logging/tree/rel/2.0.0)
 - [Microsoft.AspNetCore.Mvc](https://github.com/aspnet/Mvc/tree/rel/2.0.0)
+    + [Microsoft.AspNetCore.Authorization](https://github.com/aspnet/Security/tree/rel/2.0.0/src/Microsoft.AspNetCore.Authorization)  
 - [Microsoft.AspNetCore.StaticFiles](https://github.com/aspnet/StaticFiles/tree/rel/2.0.0)
-- [Microsoft.AspNetCore.Identity](https://github.com/aspnet/Identity/tree/rel/2.0.0)  
+- [Microsoft.AspNetCore.Identity](https://github.com/aspnet/Identity/tree/rel/2.0.0)
+    + [Microsoft.AspNetCore.Authentication](https://github.com/aspnet/Security/tree/rel/2.0.0/src/Microsoft.AspNetCore.Authentication)    
 - Microsoft.VisualStudio.Web.BrowserLink <- source not found. MetaPackage?
-	+ [Microsoft.AspNetCore.Hosting.Abstractions](https://github.com/aspnet/Hosting/tree/rel/2.0.0/src/Microsoft.AspNetCore.Hosting.Abstractions)
-	+ [Microsoft.AspNetCore.Http.Abstractions](https://github.com/aspnet/HttpAbstractions/tree/rel/2.0.0/src/Microsoft.AspNetCore.Http.Abstractions)
-	+ [Microsoft.AspNetCore.Http.Extensions](https://github.com/aspnet/HttpAbstractions/tree/rel/2.0.0/src/Microsoft.AspNetCore.Http.Extensions)
-	+ [Microsoft.Extensions.FileProviders.Physical](https://github.com/aspnet/FileSystem/tree/rel/2.0.0/src/Microsoft.Extensions.FileProviders.Physical)
+    + [Microsoft.AspNetCore.Hosting.Abstractions](https://github.com/aspnet/Hosting/tree/rel/2.0.0/src/Microsoft.AspNetCore.Hosting.Abstractions)
+    + [Microsoft.AspNetCore.Http.Abstractions](https://github.com/aspnet/HttpAbstractions/tree/rel/2.0.0/src/Microsoft.AspNetCore.Http.Abstractions)
+    + [Microsoft.AspNetCore.Http.Extensions](https://github.com/aspnet/HttpAbstractions/tree/rel/2.0.0/src/Microsoft.AspNetCore.Http.Extensions)
+    + [Microsoft.Extensions.FileProviders.Physical](https://github.com/aspnet/FileSystem/tree/rel/2.0.0/src/Microsoft.Extensions.FileProviders.Physical)
   
 ## Link
 Asp.Net Core Project Home:  
@@ -70,6 +72,7 @@ Namespace "Microsoft.AspNetCore" Packages:
 [https://github.com/aspnet/KestrelHttpServer](https://github.com/aspnet/KestrelHttpServer)  
 [https://github.com/aspnet/Mvc](https://github.com/aspnet/Mvc)  
 [https://github.com/aspnet/Routing](https://github.com/aspnet/Routing)  
+[https://github.com/aspnet/Security](https://github.com/aspnet/Security)  
 [https://github.com/aspnet/StaticFiles](https://github.com/aspnet/StaticFiles)  
   
 Namespace "Microsoft.Extensions" Packages:  
