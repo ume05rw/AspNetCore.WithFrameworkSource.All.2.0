@@ -35,6 +35,8 @@ dotnet restore --configfile "%HOME%NuGet.config"
 cd "%HOME%Extensions\Logging\src\Microsoft.Extensions.Logging.Abstractions"
 dotnet restore --configfile "%HOME%NuGet.config"
 
+cd "%HOME%Extensions\DependencyInjection\src\Microsoft.Extensions.DependencyInjection.Abstractions"
+dotnet restore --configfile "%HOME%NuGet.config"
 
 
 : ------------------------------
@@ -76,6 +78,14 @@ dotnet restore --configfile "%HOME%NuGet.config"
 cd "%HOME%AspNetCore\Routing\src\Microsoft.AspNetCore.Routing.Abstractions"
 dotnet restore --configfile "%HOME%NuGet.config"
 
+cd "%HOME%AspNetCore\Identity\src\Microsoft.Extensions.Identity.Core"
+dotnet restore --configfile "%HOME%NuGet.config"
+
+cd "%HOME%AspNetCore\Security\src\Microsoft.AspNetCore.Authorization"
+dotnet restore --configfile "%HOME%NuGet.config"
+
+cd "%HOME%Extensions\DependencyInjection\src\Microsoft.Extensions.DependencyInjection"
+dotnet restore --configfile "%HOME%NuGet.config"
 
 
 : ------------------------------
@@ -100,6 +110,11 @@ dotnet restore --configfile "%HOME%NuGet.config"
 cd "%HOME%Extensions\Configuration\src\Microsoft.Extensions.Configuration.UserSecrets"
 dotnet restore --configfile "%HOME%NuGet.config"
 
+cd "%HOME%AspNetCore\Http\src\Microsoft.AspNetCore.Authentication.Abstractions"
+dotnet restore --configfile "%HOME%NuGet.config" --configfile "%HOME%NuGet.config"
+
+cd "%HOME%AspNetCore\Security\src\Microsoft.AspNetCore.Authorization.Policy"
+dotnet restore --configfile "%HOME%NuGet.config"
 
 
 : ------------------------------
@@ -114,10 +129,26 @@ dotnet restore --configfile "%HOME%NuGet.config"
 cd "%HOME%AspNetCore\Routing\src\Microsoft.AspNetCore.Routing"
 dotnet restore --configfile "%HOME%NuGet.config"
 
+cd "%HOME%AspNetCore\Http\src\Microsoft.AspNetCore.Authentication.Core"
+dotnet restore --configfile "%HOME%NuGet.config"
+
 
 : ------------------------------
 : 4 Dependencies
 : ------------------------------
+cd "%HOME%AspNetCore\Security\src\Microsoft.AspNetCore.Authentication"
+dotnet restore --configfile "%HOME%NuGet.config"
+
+cd "%HOME%AspNetCore\Security\src\Microsoft.AspNetCore.Authentication.Cookies"
+dotnet restore --configfile "%HOME%NuGet.config"
+
+cd "%HOME%AspNetCore\Security\src\Microsoft.AspNetCore.Authentication.OAuth"
+dotnet restore --configfile "%HOME%NuGet.config"
+
+cd "%HOME%AspNetCore\Security\src\Microsoft.AspNetCore.Authentication.MicrosoftAccount"
+dotnet restore --configfile "%HOME%NuGet.config"
+
+
 : ------------------------------
 : 5 Dependencies
 : ------------------------------
@@ -151,6 +182,8 @@ dotnet restore --configfile "%HOME%NuGet.config"
 cd "%HOME%AspNetCore\Server\KestrelHttpServer\src\Microsoft.AspNetCore.Server.Kestrel.Https"
 dotnet restore --configfile "%HOME%NuGet.config"
 
+cd "%HOME%AspNetCore\Identity\src\Microsoft.AspNetCore.Identity"
+dotnet restore --configfile "%HOME%NuGet.config"
 
 
 : ------------------------------
@@ -227,15 +260,11 @@ dotnet restore --configfile "%HOME%NuGet.config"
 
 pause
 
+
+
 : ------------------------------
 : Not Use
 : ------------------------------
-:cd "%HOME%AspNetCore\Http\src\Microsoft.AspNetCore.Authentication.Abstractions"
-:dotnet restore --configfile "%HOME%NuGet.config" --configfile "%HOME%NuGet.config"
-
-:cd "%HOME%AspNetCore\Http\src\Microsoft.AspNetCore.Authentication.Core"
-:dotnet restore --configfile "%HOME%NuGet.config"
-
 :cd "%HOME%AspNetCore\Diagnostics\src\Microsoft.AspNetCore.Diagnostics.Elm"
 :dotnet restore --configfile "%HOME%NuGet.config"
 
